@@ -1,0 +1,140 @@
+
+body, h1, h2, p, ul, ol, li, nav, section, footer {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+nav {
+    background-color: #333;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+section h1, section h2 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+section p {
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+section img {
+    max-width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 10px auto;
+}
+
+
+#about p {
+    text-align: justify;
+}
+
+
+ul, ol {
+    margin: 10px 0;
+    padding-left: 20px;
+    text-align: left;
+}
+
+ul li, ol li {
+    margin: 5px 0;
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+
+footer {
+    text-align: center;
+    margin: 20px 0;
+}
+
+footer p {
+    font-weight: bold;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+footer ul li {
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: #333;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+}
+
+footer ul li a:hover {
+    background-color: #575757;
+    color: #fff;
+    border-radius: 5px;
+}
+
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    section {
+        padding: 10px;
+    }
+}
